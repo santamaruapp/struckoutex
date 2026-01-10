@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>こどもとのじかん - 公式ウェブサイト</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .app-icon {
+            object-fit: cover;
+            width: 120px;
+            height: 120px;
+            border-radius: 25px;
+            margin: 0 auto 20px;
+            background: linear-gradient(135deg, #FF6B6B, #4ECDC4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            color: white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .screenshot {
+            max-width: 200px;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+        }
+        .screenshot:hover {
+            transform: scale(1.05);
+        }
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #007AFF, #0056CC);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin: 20px 0;
+            font-weight: 600;
+            font-size: 18px;
+            box-shadow: 0 8px 25px rgba(0,122,255,0.3);
+            transition: all 0.3s ease;
+        }
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 35px rgba(0,122,255,0.4);
+        }
+        .feature-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 20px 0;
+            border-left: 5px solid #007AFF;
+        }
+        .feature-card h3 {
+            color: #007AFF;
+            margin-top: 0;
+        }
+        .screenshots-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 30px 0;
+        }
+        .section {
+            margin: 40px 0;
+        }
+        .section h2 {
+            color: #333;
+            border-bottom: 3px solid #007AFF;
+            padding-bottom: 10px;
+        }
+        .footer {
+            margin-top: 60px;
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+        }
+        .footer a {
+            color: #007AFF;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .highlight {
+            background: linear-gradient(135deg, #FFE5B4, #FFD700);
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+            border-left: 5px solid #FFA500;
+        }
+        .highlight h3 {
+            color: #B8860B;
+            margin-top: 0;
+        }
+    </style>
+    <script src="language-switcher.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="TimeWithKidsIcon.png" alt="TimeWithKids App Icon" class="app-icon">
+            <h1>こどもとのじかん</h1>
+            <p>今日も素敵な1日になりますように</p>
+            <a href="https://apps.apple.com/your-app-link" class="download-btn">App Storeでダウンロード</a>
+        </div>
+
+        <div class="highlight">
+            <h3>🌟 大切な時間を数えよう</h3>
+            <p>お子様の成長のマイルストーンまでの残り時間をリアルタイムで表示。成人式、卒業式、誕生日など、特別な日までの時間を大切に過ごしましょう。</p>
+        </div>
+
+        <div class="section">
+            <h2>主な機能</h2>
+            
+            <div class="feature-card">
+                <h3>⏰ リアルタイム残り時間表示</h3>
+                <p>お子様の特別な日までの残り時間を年・月・日・時間・分・秒でリアルタイム表示。時間の貴重さを実感できます。</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>📅 3つのイベントタイプ</h3>
+                <p><strong>年齢指定：</strong>「18歳まで」など年齢で設定<br>
+                <strong>日付指定：</strong>「成人式まで」など具体的な日付で設定<br>
+                <strong>年次イベント：</strong>「誕生日まで」など毎年繰り返すイベント</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>📊 週末・祝日計算</h3>
+                <p>残り時間に含まれる週末の回数と祝日の日数を自動計算。実際に過ごせる時間を正確に把握できます。</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>🎨 カスタマイズ可能</h3>
+                <p>お子様ごとにカードの色を設定可能。複数のお子様の情報を色分けして管理できます。</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>🌍 多言語対応</h3>
+                <p>日本語、英語、中国語、韓国語、スペイン語に対応。世界中のご家族にお使いいただけます。</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>📱 直感的な操作</h3>
+                <p>シンプルで美しいインターフェース。忙しい親御さんでも簡単にお子様の成長を記録できます。</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>こんな方におすすめ</h2>
+            <ul>
+                <li>お子様の成長を大切に記録したい親御さん</li>
+                <li>特別な日までの時間を意識して過ごしたい方</li>
+                <li>家族の時間の価値を再認識したい方</li>
+                <li>お子様の成長過程を視覚的に把握したい方</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>スクリーンショット</h2>
+            <div class="screenshots-container">
+                <img src="screenshot1.png" alt="メイン画面 - お子様のカード表示" class="screenshot">
+                <img src="screenshot2.png" alt="イベント詳細画面 - 残り時間表示" class="screenshot">
+                <img src="screenshot3.png" alt="設定画面 - カスタマイズ" class="screenshot">
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>プレミアム機能</h2>
+            <div class="feature-card">
+                <h3>✨ 無制限イベント登録</h3>
+                <p>基本版では1人につき1つのイベントまで登録可能。プレミアム版では無制限にイベントを登録できます。</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>サポート</h2>
+            <p>ご質問やサポートが必要な場合は、お気軽にお問い合わせください。</p>
+            <a href="support.html" class="download-btn">サポートページへ</a>
+        </div>
+
+        <div class="footer">
+            <p>
+                <a href="index.html">ホーム</a> | 
+                <a href="support.html">サポート</a> | 
+                <a href="privacy-policy.html">プライバシーポリシー</a>
+            </p>
+            <p>&copy; 2024 santamaruapp. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
